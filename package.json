@@ -1,11 +1,11 @@
 {
   "name": "brasileirao-api",
   "version": "1.0.0",
-  "description": "A crawler that provider an open API to get brasileirão matches and scores",
+  "description": "A crawler that provider an open API to get brasileirao matches and scores",
   "main": "dist/index.js",
   "scripts": {
     "start": "nodemon index.js --exec babel-node",
-    "build": "babel lib -d dist",
+    "build": "babel lib/index.js -d dist",
     "serve": "node dist/index.js"
   },
   "repository": {
